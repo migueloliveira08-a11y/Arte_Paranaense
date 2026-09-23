@@ -1,3 +1,17 @@
-const botao = document.querySelector("#botaoMensgemm");
+const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir.forEach(function(botaoCurtir){
+let curtiu = false;
+botaoCurtir.addEventListener("click, curtir");
+function curtir(){
+const contador = botaoCurtir.querySelector("span");
+if (curtir === false){
+contador.textContent++;
+}else{
+contador.textContent--;
+curtir = false;
 
-const mensagem = document.querySelector("#mensagemInterativa")
+}
+
+}  
+  
+});
