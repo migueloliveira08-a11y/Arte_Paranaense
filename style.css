@@ -1,8 +1,33 @@
-body{
-background-color:#FFFFFF;
-color:#BF0000 ;
+body {
+    background-color: #FFFFFF;
+    color: #BF0000;
 }
-header{
-background-color: #945741;
-color: #fFFFFF;
+
+header {
+    background-color: #945741;
+    color: #fFFFFF;
+}
+
+section {
+    background-color: #FFFFFF;
+    color: #1a1313(0, 0, 0);
+}
+
+footer {
+
+    background-color: #FFFFFF;
+    color: aquamarine;
+}
+
+button {
+    background-color: #BF0000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4343;
 }
