@@ -16,3 +16,8 @@ curtiu = false;
 }  
   
 });
+const btnTema = document.querySelector(".btn-tema");
+btnTema.addEventListener("click", mudarTema);
+function mudarTema(){
+    document.boy.classList.toggle("tema-escuro")
+}
